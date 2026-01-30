@@ -1,0 +1,36 @@
+{
+  "name": "@ogulcancelik/pi-sketch",
+  "version": "0.1.0",
+  "description": "Quick sketch pad for pi - draw in browser, send to models",
+  "keywords": [
+    "pi-package",
+    "paint",
+    "sketch",
+    "drawing",
+    "visual"
+  ],
+  "author": "Can Celik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogulcancelik/pi-sketch.git"
+  },
+  "homepage": "https://github.com/ogulcancelik/pi-sketch",
+  "bugs": {
+    "url": "https://github.com/ogulcancelik/pi-sketch/issues"
+  },
+  "files": [
+    "extensions",
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
